@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8a2be2;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    padding: 20px;
+}
+
+.school-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.school-card:hover {
+    transform: scale(1.02);
+}
+
+.school-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.school-card p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Add more styling for specific elements if needed */
